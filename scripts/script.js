@@ -105,6 +105,10 @@ function keyboardInputHandler(e) {
         //remove the last element in the string
         res.value = resultInput.substring(0, res.value.length - 1);
     }
+
+    if(e.key =="esc"){
+        res.value = "";
+    }
     // else {
     //     // If an invalid key is pressed, show an alert.
     //     alert("Invalid Input: Please use numbers (0-9), operators (+ - * /), and decimal (.) only.");
