@@ -106,7 +106,7 @@ function keyboardInputHandler(e) {
         res.value = resultInput.substring(0, res.value.length - 1);
     }
 
-    if(e.key =="Esc"){
+    if(e.key =="Escape"){
         res.value = "";
     }
     // else {
