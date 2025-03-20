@@ -109,8 +109,8 @@ function keyboardInputHandler(e) {
     if(e.key =="Esc"){
         res.value = "";
     }
-    else {
-        // If an invalid key is pressed, show an alert.
-        alert("Invalid Input: Please use numbers (0-9), operators (+ - * /), and decimal (.) only.");
-    }
+    // else {
+    //     // If an invalid key is pressed, show an alert.
+    //     alert("Invalid Input: Please use numbers (0-9), operators (+ - * /), and decimal (.) only.");
+    // }
 }
